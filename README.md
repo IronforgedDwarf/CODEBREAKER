@@ -1,50 +1,77 @@
-CODEBREAKER
+# CODEBREAKER
 
-Version: 1.1
-Author: Bryce Planchard
-License: MIT License
-Website / Repo: https://github.com/IronforgedDwarf/CODEBREAKER
+**Version:** 1.1  
+**Author:** Bryce Planchard  
+**License:** [MIT License](LICENSE.txt)  
+**Website / Repo:** [https://github.com/IronforgedDwarf/CODEBREAKER](https://github.com/IronforgedDwarf/CODEBREAKER)
 
-Overview
+---
 
-CODEBREAKER is a puzzle/logic game written in Python. This repository includes both the source code and a Windows installer for easy setup.
+## Overview
 
+CODEBREAKER is a puzzle/logic game written in Python. This repository includes both the **source code** and a **Windows installer** for easy setup.
 
-Installer
+---
 
-The installer is included in the repository:
-File: Install.exe
+## Installer
 
+The installer is included in the repository:  
 
-Installation Steps
+**File:** `Install.exe`
 
-Download or clone this repository.
-Double-click CODEBREAKER Install.exe.
-Follow the installation wizard instructions.
-Once installed, you can run CODEBREAKER from the Start Menu or Desktop shortcut.
-Note: If you prefer, you can also run the program directly from source using Python (see Running from Source below).
+### Installation Steps
 
-Running from Source
+1. Download or clone this repository.  
 
-Make sure you have Python 3.10+ installed.
-Clone this repository:
-git clone https://github.com/IronforgedDwarf/CODEBREAKER.git
-Navigate to the project folder:
-cd CODEBREAKER
-Run the program:
-python CODEBREAKER.py
+2. Double-click `Install.exe`.  
 
-Features
+3. Follow the installation wizard instructions.  
 
-Adjustable difficulty
-Custom AI generated ICON
-Installer provided
-License
+4. Once installed, you can run CODEBREAKER from the Start Menu or Desktop shortcut.  
 
-This project is licensed under the MIT License.
+> **Note:** You can also run the program directly from source using Python (see **Running from Source** below).
 
-Screenshots
+---
 
+## Running from Source
+
+1. Ensure you have **Python 3.10+** installed.  
+
+2. Clone this repository:  
+
+    ```bash
+    git clone https://github.com/IronforgedDwarf/CODEBREAKER.git
+    ```
+
+3. Navigate to the project folder:  
+
+    ```bash
+    cd CODEBREAKER
+    ```
+
+4. Run the program:  
+
+    ```bash
+    python CODEBREAKER.py
+    ```
+
+---
+
+## Features
+
+- Adjustable difficulty  
+- Custom AI-generated icon  
+- Installer provided  
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.txt).
+
+---
+
+## Screenshots
 
 ### Main Menu
 ![Main Menu](Screenshot1.jpg)
@@ -55,6 +82,9 @@ Screenshots
 ### Victory Screen
 ![Victory Screen](Screenshot3.jpg)
 
-Known Issues
-Entering less than the amount of digits results in confusing indicators (I think the missing digits are added to the front of the indicators as "wrong number")
-Screen does not clear properly for game start and restart. (I wrote this in 2019, its probably an easy fix)
+---
+
+## Known Issues
+
+- Entering fewer digits than expected results in confusing indicators (the missing digits may be added to the front as "wrong number").  
+- Screen does not clear properly at game start and restart. (Written in 2019; likely an easy fix.)
