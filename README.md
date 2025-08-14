@@ -47,13 +47,13 @@ Screenshots
 
 
 ### Main Menu
-![Main Menu](Screenshot 1.jpg)
+![Main Menu](Screenshot1.jpg)
 
 ### Difficulty Selection
-![Difficulty Selection](Screenshot 2.jpg)
+![Difficulty Selection](Screenshot2.jpg)
 
 ### Victory Screen
-![Victory Screen](Screenshot 3.jpg)
+![Victory Screen](Screenshot3.jpg)
 
 Known Issues
 Entering less than the amount of digits results in confusing indicators (I think the missing digits are added to the front of the indicators as "wrong number")
