@@ -1,4 +1,5 @@
-# CODEBREAKER
+![Codebreaker](CODEBREAKER.ico) 
+# CODEBREAKER 
 
 **Version:** 1.1  
 **Author:** Bryce Planchard  
