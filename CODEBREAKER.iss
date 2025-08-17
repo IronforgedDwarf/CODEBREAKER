@@ -34,8 +34,8 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "Create a &desktop icon"; GroupDescription: "Additional icons:"
 
 [Files]
-Source: "C:\Users\somel\Documents\CODEBREAKER\dist\CODEBREAKER.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\somel\Documents\CODEBREAKER\*.dll"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "{#SourcePath}\dist\CODEBREAKER.exe"; DestDir: "{app}"; Flags: ignoreversion
+
 
 [Icons]
 Name: "{autoprograms}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
