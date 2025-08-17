@@ -87,5 +87,6 @@ This project is licensed under the [MIT License](LICENSE.txt).
 
 ## Known Issues
 
-- Entering fewer digits than expected results in confusing indicators (the missing digits may be added to the front as "wrong number").  
-- Screen does not clear properly at game start and restart. (Written in 2019; likely an easy fix.)
+- Entering fewer digits than expected results in confusing indicators (the missing digits may be added to the front as "wrong number").
+- Entering dumplicate numbers results in different responses, but does NOT indicate if a digit it duplicated, (limitation of design).
+- Screen does not clear properly at game start and restart. (Written in 2019; likely an easy fix.)(update: I was wrong, looks like a limitation)
